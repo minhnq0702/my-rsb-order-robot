@@ -2,12 +2,11 @@
 import csv
 import os
 
-from robocorp.tasks import task
 from robocorp import browser
+from robocorp.tasks import task
+from RPA.Archive import Archive
 from RPA.HTTP import HTTP
 from RPA.PDF import PDF
-from RPA.Archive import Archive
-
 
 ORDER_FILE_NAME = 'orders.csv'
 ORDER_DATA_DIR = 'output/orders'
